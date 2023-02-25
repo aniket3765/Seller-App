@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Seller's App</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  
+  <div class="main-block">
+    <h1>Lits Your Items</h1>
+    <form id="form">
+      <hr>
+      <input type="text" name="name" id="name" placeholder="item" required/>  
+      <input type="text" name="price" id="price" placeholder="price" required/>
+
+      <div class = "msg"></div>    
+    </hr>
+      <div class="btn-block">
+        <input id="btn" type="submit" value="Submit"></input>
+      </div>
+    </form>
+    <ul id ="items">
+  </ul>
+  <p id="p">Total Price is :</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+  <script src="seller.js"></script>
+</body>
+</html>
